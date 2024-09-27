@@ -10,5 +10,6 @@ O script precip_accumulation_v4 faz o download dos dados diários do produto MER
   Esse script cria uma API com três endpoints nas rotas: / (homepage), /teste-tecnico/datas-limite e /teste-tecnico/media-bacia/obter. Algumas instruções:
   - Altere o a variável path_arquivos adicionando o caminho dos dados .nc e contornos de bacia (devem estar na mesma pasta);
   - Escolha a bacia e o dia para obter a média, alterando as variáveis bacia_gdf e data;
+  - Certifique-se que as libs flask, os, geopandas, rasterstats e rasterio estejam instaladas.
 
 Os três primeiros são necessários para rodar o exercício 1 do teste e o último usado para o exercício 2. 
