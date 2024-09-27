@@ -85,7 +85,7 @@ def main(output_dir):
        # Salvando o arquivo em netcdf
        precip_dia.to_netcdf(os.path.join(output_dir, f'acumulado_precip_{datas[i]}.nc'))
 
-    print(f"Acumulado de precipitação {datas[i]} foi salvo")
+       print(f"Acumulado de precipitação {datas[i]} foi salvo")
     
     print("Todos os acumulados diários foram salvos no formato NetCDF.")
 
